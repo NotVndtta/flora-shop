@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'opacity': 'opacity 0,5s ease-in-out'
+      },
+      keyframes: {
+        opacity: {
+          '0%': {opacity: "1"},
+          '50%': {opacity: "0.8"},
+          '100%': {opacity: '1'},
+        }
+      }
+    },  
   },
   plugins: [],
 }
