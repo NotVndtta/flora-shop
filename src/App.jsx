@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Main from './Components/Main'
 import Footer from './Components/Footer'
 import About from './Components/About'
+import Map from './Components/Map'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Main />
       <About />
+      <Map />
       <Footer />
     </div>
   )
